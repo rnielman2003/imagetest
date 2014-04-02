@@ -20,5 +20,16 @@
 .wrapper #circletwo {background:#b1af7f;left:165px;top:0;}
 .item {width:370px;}
 .item .centered {width:100%;text-align:center;}
-
-input[type=text] {border-radius:12px;background:#cccccc;margin:0 auto;}
+.item .centered .button-linktwo,
+.item .centered .button-linkone {
+    padding: 15px;
+    margin-left:10px;
+    background: #cccccc;
+    color: #FFF;
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    border:0;
+    cursor:pointer;
+}
+input[type=text] {border-radius:12px;background:#cccccc;margin:0 auto;width:200px;height:20px;padding:10px;margin:20px 0;border: 0px solid;}
