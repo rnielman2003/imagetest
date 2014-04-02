@@ -1,5 +1,6 @@
 .wrapper {width:500px;height:200px;position:relative;}
-
+.wrappertwo {width:200px;height:500px;position:relative;}
+.wrappertwo .circle,
 .wrapper .circle {
 	border-radius: 50%;
 	width: 200px;
@@ -7,7 +8,7 @@
 	position:absolute;
 	opacity:0.8;
 }
-
+.wrappertwo .circle .title,
 .wrapper .circle .title {
 	margin-left:75px;
 	margin-top:30px;
@@ -15,9 +16,13 @@
 	color:#fff;
 }
 
-.wrapper #circleone {background:#7f8198;left:0;top:0;}
+#circleone {background:#7f8198;left:0;top:0;}
 
-.wrapper #circletwo {background:#b1af7f;left:165px;top:0;}
+#circletwo {background:#b1af7f;left:165px;top:0;}
+
+#circlethree {background:#7f8198;left:0;top:0;}
+
+#circlefour {background:#b1af7f;left:0;top:165px;}
 .item {width:370px;}
 .item .centered {width:100%;text-align:center;}
 .item .centered .button-linktwo,
