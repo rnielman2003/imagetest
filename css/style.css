@@ -1,0 +1,24 @@
+.wrapper {width:500px;height:200px;position:relative;}
+
+.wrapper .circle {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px; 
+	position:absolute;
+	opacity:0.8;
+}
+
+.wrapper .circle .title {
+	margin-left:75px;
+	margin-top:30px;
+	font-size:32px;
+	color:#fff;
+}
+
+.wrapper #circleone {background:#7f8198;left:0;top:0;}
+
+.wrapper #circletwo {background:#b1af7f;left:165px;top:0;}
+.item {width:370px;}
+.item .centered {width:100%;text-align:center;}
+
+input[type=text] {border-radius:12px;background:#cccccc;margin:0 auto;}
